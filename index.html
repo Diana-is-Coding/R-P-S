@@ -11,9 +11,36 @@
 </head>
 
 <body>
-    <p><h1>Hello World!</h1>
-    This is our cool Rock Paper Scissors variation!
-    </p>
+    <div class="container">
+        <div class="game-layout">
+            <div class="game-container">
+                <div class="name-input-container">
+                    <input type="text" id="player-name" placeholder="Enter your name">
+                    <button id="start-game">Start Game</button>
+                </div>
+                <div class="scores" style="display: none;">
+                    <div class="player-score">
+                        <h2><span id="player-name-display">Player</span> Score: <span id="player-score">0</span></h2>
+                    </div>
+
+                    <div class="computer-score">
+                        <h2>Computer Score: <span id="computer-score">0</span></h2>
+                    </div>
+                </div>
+                <div class="choices" style="display: none;">
+                    <button class="choice" data-choice="rock"><img src="assets/img/rock.png" alt="Rock">Rock</button>
+                    <button class="choice" data-choice="paper"><img src="assets/img/paper.png"
+                            alt="Paper">Paper</button>
+                    <button class="choice" data-choice="scissors"><img src="assets/img/scissors.png"
+                            alt="Scissors">Scissors</button>
+                    <button class="choice" data-choice="lizard"><img src="assets/img/lizard.png"
+                            alt="Lizard">Lizard</button>
+                    <button class="choice" data-choice="spock"><img src="assets/img/spock.png"
+                            alt="Spock">Spock</button>
+                </div>
+                </div>
+            </div>
+        </div>
 
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
