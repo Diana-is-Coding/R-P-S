@@ -1,0 +1,11 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Reddit+Mono:wght@200..900&display=swap');
+
+body {
+    background-color: #dac4fb;
+    font-family: 'Reddit Mono', monospace;
+}
+
+H1 {
+    font-family: 'Danfo', serif;
+}
