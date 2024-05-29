@@ -69,11 +69,81 @@ body {
     padding: 5px;
     font-size: 1.3em;
     width: 70%;
+}
+
+.name-input-container {
     margin-bottom: 10px;
 }
+
 /*Game button styling*/
 .name-input-container button {
     padding: 5px 10px;
     font-size: 14px;
     cursor: pointer;
 }
+/*Scores display and stying*/
+.scores {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.scores h2 {
+    margin: 5px;
+    font-size: 24px;
+    font-style: italic;
+    color: #413bff;
+}
+
+
+.choices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #3bbeff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.choice {
+    margin: 5px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.choice img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.result-container {
+    margin-top: 10px;
+}
+
+.result .player-choice img,
+.result .computer-choice img {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.result .player-choice,
+.result .computer-choice,
+.result .round-result {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #413bff;
+}
+
+@media screen and (max-width: 768px) {
+    .name-input-container input {
+        font-size: 1.5em;
+        width: 90%;
+    }}
+
+    .game-layout {
+        flex-direction: column;
+        align-items: center;
+    }
