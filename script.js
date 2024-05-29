@@ -55,7 +55,7 @@
     //     };
     // };
 
-    document.getElementById("TestButton").addEventListener("click", () => scoreHandler("rock"));
+    // document.getElementById("TestButton").addEventListener("click", () => scoreHandler("rock"));
     /* ------------------------------- */
  const choices = document.querySelectorAll('.choice');
  const playerChoiceDiv = document.querySelector('.player-choice');
