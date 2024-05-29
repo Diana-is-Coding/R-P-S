@@ -6,15 +6,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Fonts */
+body {
+    font-family: 'Reddit Mono', monospace;
+}
+
+h1 {
+    font-family: "danfo", serif;
+}
+
 /*Main body styling*/
 body {
     background-color: #dac4fb;
-    font-family: 'Reddit Mono', monospace;
     text-align: center;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
     display: flex;
+    flex-direction: row;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
@@ -22,14 +30,21 @@ body {
     background-position: center;
 }
 
+/* conatnier above the game play */
 
+.welcome-container {
+    background-color: #c0c2cf;
+    border-radius: 10px;
+    padding: 20px;
+}
 /*The landing page container display and styling*/
 .container {
     width: 90%;
     max-width: 1200px;
+    background: #c4f1fe;
     margin: 20px;
     padding: 20px;
-    background: rgba(196, 241, 254, 0.9); 
+    padding-top: 50px;
     border-radius: 15px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
@@ -46,7 +61,7 @@ body {
     justify-content: space-between;
     width: 100%;
     max-width: 100%;
-    background-color: hsla(224, 78%, 35%, 0.8);
+    background: #dac4fb;
     padding: 20px;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -56,7 +71,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f0f8ff;
+    background-color: #1c1d21;
     background-size: contain;
     width: 100%;
     padding: 20px;
@@ -78,8 +93,11 @@ body {
 /*Game button styling*/
 .name-input-container button {
     padding: 5px 10px;
-    font-size: 14px;
+    font-size: 18px;
     cursor: pointer;
+    background-color: #dac4fb;
+    font-family: 'Danfo', serif;
+    color: #1c1d21;
 }
 /*Scores display and stying*/
 .scores {
@@ -92,7 +110,7 @@ body {
     margin: 5px;
     font-size: 24px;
     font-style: italic;
-    color: #413bff;
+    color: #dac4fb;
 }
 
 
@@ -136,6 +154,27 @@ body {
     font-size: 24px;
     color: #413bff;
 }
+
+/* Game rules */
+.line {
+    color: #dac4fb;
+    font-size: xx-large;
+    font-family: "danfo", serif;
+    padding: 20px;
+}
+
+.rules-container {
+    align-self: flex-end;
+    float: left;
+    font-size: 0.5em;
+    padding-top: 75px;
+
+}
+
+.rules-container p {
+    font-size: xx-small;
+}
+
 
 @media screen and (max-width: 768px) {
     .name-input-container input {
