@@ -13,7 +13,7 @@
   <a href="https://codeinstitute.net/?nab=0">
     <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" align="left" alt="Project Logo" width="80" height="80">
           <a href="https://github.com/Diana-is-Coding/R-P-S">
-    <img src="./assets/images/quidpro.png" align="right" alt="Project Logo" width="120" height="90">
+    <img src="../R-P-S/assets/img/Quid Pro Logo.png" align="right" alt="Project Logo" width="120" height="90">
     </div>
   </a>
   <br>
@@ -139,7 +139,7 @@ Why Quid Pro is Unique:
 Join us in the world of Quid Pro and experience a game that is as intellectually rewarding as it is fun. See how far your skills can take you and enjoy the thrill of continuous challenge and achievement. May the odds be ever in your favor!
 <h2 id="technology-stack">Technology Stack</h2>
 
-This subsection outlines the technologies, frameworks, libraries, and tools used in the development of this project. It provides insight into the foundational components that power Wanderwise. Add-ons and plugins are captured in the acknowledgements subsection.
+This subsection outlines the technologies, frameworks, libraries, and tools used in the development of this project. It provides insight into the foundational components that power Quid Pro. Add-ons and plugins are captured in the acknowledgements subsection.
 
 <h2 id="languages-frameworks-libraries">Languages, Frameworks and Libraries</h2>
 
@@ -172,13 +172,13 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 <strong>Four Values of the Agile Manifesto:</strong>
 
 - Vision 1: Customer collaboration over contract negotiation: The Team held 8 sessions via Slack (Huddle) platform, ensuring alignment with customer needs and prioritizing features through user story mapping.
-  <a href="https://github.com/IkennaEgwim/README.md">
+  <a href="https://github.com/Diana-is-Coding/R-P-S/README.md">
   <img src="#" alt="Product Screenshot" width="400" height="300">
   </a>
   **A screenshot or graphic representation of a Slack meeting with team members.**
 
 - Vision 2: Responding to change over following a plan: Throughout the project, the team managed (
-  [![GitHub issues](https://img.shields.io/github/issues-closed/IkennaEgwim/Wanderwise?)](https://github.com/IkennaEgwim/Wanderwise/issues) + [![GitHub issues](https://img.shields.io/github/issues/IkennaEgwim/Wanderwise?)](https://github.com/IkennaEgwim/Wanderwise/issues) ) GitHub issues, adapting to changing requirements and feedback iteratively.
+  [![GitHub issues](https://img.shields.io//github.com/Diana-is-Coding/R-P-S?)](https://github.com/Diana-is-Coding/R-P-S/issues) + [![GitHub issues](https://img.shields.io/github/issues/Diana-is-Coding/R-P-S?)](https://github.com/Diana-is-Coding/R-P-S/issues) ) GitHub issues, adapting to changing requirements and feedback iteratively.
   **A screenshot of the GitHub project board demonstrates their flexibility.**
   <a href="https://github.com/Diana-is-Coding/R-P-S/README.md">
   <img src="#" alt="Product Screenshot" width="400" height="300">
@@ -202,8 +202,8 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 - Satisfy the customer: Held regular stakeholder meetings to ensure alignment with customer needs.
 - Deliver working software: Prioritized delivering functional increments in each sprint, allowing for early feedback.
 - Welcome changing requirements: Maintained open communication channels and adapted plans iteratively.
-- Collaborate daily: Conducted **(frequency of standup) stand-up** meetings to facilitate collaboration and problem-solving.
-- Face-to-face conversation: Utilized **in-person and/or virtual meetings (select one or all the options)** to enhance clarity and understanding.
+- Collaborate daily: Conducted 3 stand up meetings to facilitate collaboration and problem-solving.
+- Face-to-face conversation: Utilized virtual meetings to enhance clarity and understanding.
 - Motivated individuals: Empowered team members through skill development and recognition.
 - Measure progress through working product: Evaluated progress based on delivered functionality in each sprint.
 - Promote sustainable development: Prioritized sustainability practices to ensure long-term success.
@@ -220,11 +220,11 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 
 <h1 id="project-setup">SECTION 2: PROJECT SETUP</h1>
 
-In this section, a detailed account of all requirements needed for Wanderwise to be setup and running. It also includes installation instructions and a link to all necessary documentations for these tools.
+In this section, a detailed account of all requirements needed for Quid Pro to be setup and running. It also includes installation instructions and a link to all necessary documentations for these tools.
 
 <h2 id="prerequisites">Prerequisites</h2>
 
-Wanderwise does not rely on any external dependencies or services.
+Quid Pro does not rely on any external dependencies or services.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -232,7 +232,7 @@ Wanderwise does not rely on any external dependencies or services.
 
 <h1 id="features-and-structure">SECTION 3: PROJECT FEATURES AND STRUCTURE</h1>
 
-This section encompasses the various elements and functionalities aimed at enhancing the user experience and achieving the goals of ["**name-of-project**"] website. It outlines the key features and structural components intended to provide visitors with a seamless and informative journey through the platform.
+This section encompasses the various elements and functionalities aimed at enhancing the user experience and achieving the goals of Quid Pro game. It outlines the key features and structural components intended to provide visitors with a seamless and informative journey through the platform.
 
 <h1 id="features">Features</h1>
 
@@ -271,19 +271,6 @@ Quid Pro is packed with several key features that make it a unique and engaging 
 - **Header**
 
   - "Quid Pro" logo positioned top left
-  - Appears on every page
-
-
-- **Footer**
-
-  - Include social links.
-
-
-- **Home Page**
-  - _Hero image_ - appears at the top-center of the home page, below the header section.
-  - Our call to action button "lets Go" - provides an easy portal to other specific page of "Wanderwise".
-r.
-  
 
 <h2 id="wireframes">Wireframes</h2>
 
@@ -299,28 +286,7 @@ r.
 <img src="wireframe/home-page.png" width="600" height="700">
 </p>
 
-### _Services & Prices_
-
-<p align="center">
 <img src="wireframe/services-prices.png" width="600" height="900">
-</p>
-
-### _OurTeam_
-
-<p align="center">
-<img src="wireframe/our-team.png" width="600" height="900">
-</p>
-
-### _Gallery_
-
-<p align="center">
-<img src="wireframe/gallery.png" width="600" height="900">
-</p>
-
-### _Contact Us_
-
-<p align="center">
-<img src="wireframe/contact.png" width="600" height="900">
 </p>
 
 ### _Mobile View - Home Page_
@@ -333,7 +299,7 @@ r.
 
 <h3 id="design">Design</h3>
 
-**[name of project]** features a clean, user-friendly interface with appealing graphics and a modern design. The game mechanics center on pattern matching with limited attempts per level, increasing in difficulty, and include a real-time score-tracking system and challenging AI opponent. It is responsive across various devices, with visual and audio feedback enhancing the gaming experience, and accessibility features to accommodate a wide range of players.
+**Quid Pro** features a clean, user-friendly interface with appealing graphics and a modern design. The game mechanics center on pattern matching with limited attempts per level, increasing in difficulty, and include a real-time score-tracking system. It is responsive across various devices, with visual and audio feedback enhancing the gaming experience, and accessibility features to accommodate a wide range of players.
 
 <h3 id="color">Color</h3>
 
@@ -348,14 +314,6 @@ r.
 - main font: sans-serif
 - Secondary font - Oswald and Exo
 
-
-**Our Team** - short description and reason for selection
-
-**Gallery** - short description and reason for selection
-
-**Contact Us** - short description and reason for selection
-
-**etc** - short description and reason for selection
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -466,10 +424,9 @@ reapeat for all user stories
 
 <h3 id="content">Content</h3>
 
-- All content was written by [**Your Name**]
+- All content was written by **Ikenna Egwim**.
 - Mention sections that was not original and the source where it was adopted from.
 
-- 
 
 <h3 id="media2">Media</h3>
 
@@ -493,7 +450,7 @@ Use this space to list individuals, groups or resources you find helpful and wou
 
 <h2 id="contact">Contact</h2>
 
-Your Name - [@your_LinkedIn](https://www.linkedin.com/in/ikennaegwim/) - Ikenna Egwim
+Your Name - [https://www.linkedin.com/in/ikennaegwim/] - Ikenna Egwim
 
 Project Link: [https://github.com/Diana-is-Coding/R-P-S](https://github.com/Diana-is-Coding/R-P-S)
 
