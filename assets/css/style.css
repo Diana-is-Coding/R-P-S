@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*Main body styling*/
 body {
     background-color: #dac4fb;
     font-family: 'Reddit Mono', monospace;
@@ -23,7 +23,7 @@ body {
 }
 
 
-
+/*The landing page container display and styling*/
 .container {
     width: 90%;
     max-width: 1200px;
@@ -39,6 +39,7 @@ body {
     justify-content: center;
 }
 
+/*Game layout styling*/
 .game-layout {
     display: flex;
     align-items: center;
@@ -50,7 +51,7 @@ body {
     border-radius: 10px;
     flex-wrap: wrap;
 }
-
+/*game container display and styling*/
 .game-container {
     display: flex;
     flex-direction: column;
@@ -63,14 +64,14 @@ body {
     flex-grow: 1;
 }
 
-
+/*Player name input styling*/
 .name-input-container input {
     padding: 5px;
     font-size: 1.3em;
     width: 70%;
     margin-bottom: 10px;
 }
-
+/*Game button styling*/
 .name-input-container button {
     padding: 5px 10px;
     font-size: 14px;
