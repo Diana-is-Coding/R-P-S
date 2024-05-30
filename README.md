@@ -13,7 +13,7 @@
   <a href="https://codeinstitute.net/?nab=0">
     <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" align="left" alt="Project Logo" width="80" height="80">
           <a href="https://github.com/Diana-is-Coding/R-P-S">
-    <img src="../R-P-S/assets/img/Quid Pro Logo.png" align="right" alt="Project Logo" width="120" height="90">
+    <img src="assets/img/Quid Pro Logo.png" align="right" alt="Project Logo" width="120" height="90">
     </div>
   </a>
   <br>
@@ -111,7 +111,11 @@ This section contains summary information about the project, the user expections
 <p align="center"><a href="https://github.com/Diana-is-Coding/R-P-S">Quid Pro</a></p>
 
 <a  href="https://github.com/Diana-is-Coding/R-P-S">
-<img src="#"  alt="Product Screenshot" width="600" height="400" align="top">
+<img src="assets/img/responsive-home.PNG"  alt="Product Screenshot" width="600" height="400" align="top">
+<img src="assets/img/start-page.PNG"  alt="Product Screenshot" width="600" height="400" align="top">
+<img src="assets/img/start-page-name.PNG"  alt="Product Screenshot" width="600" height="400" align="top">
+<img src="assets/img/game-play-init.PNG"  alt="Product Screenshot" width="600" height="400" align="top">
+<img src="assets/img/game-play-win.PNG"  alt="Product Screenshot" width="600" height="400" align="top">
 </a>
 
 <h2 id="ux">User Experience (UX)</h2>
@@ -155,25 +159,25 @@ This subsection outlines the technologies, frameworks, libraries, and tools used
 
 <h2 id="languages-frameworks-libraries">Languages, Frameworks and Libraries</h2>
 
-- <img src="./assets/icons/html5.svg" width="20px" align="top"><a href="https://en.wikipedia.org/wiki/HTML5"> HTML5</a> - Used for designing the structure of the project.
+- <img src="assets/img/html.png" width="20px" align="top"><a href="https://en.wikipedia.org/wiki/HTML5"> HTML5</a> - Used for designing the structure of the project.
 
-- <img src="./assets/icons/css3-alt.svg" width="20px" align="top"><a href="https://en.wikipedia.org/wiki/CSS"> CSS3</a> - Used for styling the project.
+- <img src="assets/img/css3.png" width="20px" align="top"><a href="https://en.wikipedia.org/wiki/CSS"> CSS3</a> - Used for styling the project.
 
-- <img src="./assets/icons/Google.png" width="20px" align="top"><a href="https://fonts.google.com/"> Google Fonts</a> - Provides all of the fonts for this website.
+- <img src="assets/img/google font.png" width="20px" align="top"><a href="https://fonts.google.com/"> Google Fonts</a> - Provides all of the fonts for this website.
 
-- <img src="./assets/icons/github.png" width="20px" align="top"><a href="https://github.com/IrisSmok"> Github</a> - Used to store the project code.
+- <img src="assets/img/github.png" width="20px" align="top"><a href="https://github.com/IrisSmok"> Github</a> - Used to store the project code.
 
-- <img src="./assets/icons/gitpod.png" width="20px" align="top"><a href="https://www.gitpod.io/"> Gitpod</a> - An IDE Used for coding.
+- <img src="assets/img/gitpod.jpg" width="20px" align="top"><a href="https://www.gitpod.io/"> Gitpod</a> - An IDE Used for coding.
 
-- <img src="./assets/icons/balsamiq.png" width="20px" align="top"><a href="https://balsamiq.com/"> Balsamiq</a> - Used to create site wireframes.
+- <img src="assets/img/balsamiq.png" width="20px" align="top"><a href="https://balsamiq.com/"> Balsamiq</a> - Used to create site wireframes.
 
-- <img src="./assets/icons/responsive-devices.png" width="20px" align="top"><a href="http://ami.responsivedesign.is/"> Am I Responsive</a> - Used to check if the site is responsive on different screen sizes.
+- <img src="assets/img/Am I responsive.png" width="20px" align="top"><a href="http://ami.responsivedesign.is/"> Am I Responsive</a> - Used to check if the site is responsive on different screen sizes.
 
-- <img src="./assets/icons/html_formatter.png" width="20px" align="top"><a href="https://www.freeformatter.com/html-formatter.html"> Free Online HTML Formatter</a> - Used to correct indentation issues and get rid of excess whitespace.
+- <img src="assets/img/w3c.png" width="20px" align="top"><a href="https://www.freeformatter.com/html-formatter.html"> Free Online HTML Validator</a> - Used to correct indentation issues and get rid of excess whitespace.
 
-- <img src="./assets/icons/bootstrap.png" width="20px" align="top"><a href="[Bootstrap-url]"> Bootstrap</a> - Used for building responsive and mobile-first websites and web applications.
+- <img src="assets/img/bootstrap.jpg" width="20px" align="top"><a href="[Bootstrap-url]"> Bootstrap</a> - Used for building responsive and mobile-first websites and web applications.
 
-- <img src="./assets/images/canva.png" alt="Canva" width="20px" align="top"><a href="(https://www.canva.com/)"> Canva</a> - A free online graphic design tool. Used for creating logos and more.
+- <img src="assets/img/Canva.jpg" alt="Canva" width="20px" align="top"><a href="(https://www.canva.com/)"> Canva</a> - A free online graphic design tool. Used for creating logos and more.
 
 <h2 id="management-and-development">Project Management and Development Approach</h2>
 
@@ -184,7 +188,7 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 - Vision 1: Customer collaboration over contract negotiation: The Team held **16** Hurdles through Slack Platform, ensuring alignment with user needs and prioritizing features through user story mapping.
 
 <p align="center"><strong>A screenshot of a one of the team's huddles through slack.</strong></p>
-<img src="./assets/images/team-huddle.png" alt="Screenshot of the team's huddle" width="600" height="100%">
+<img src="assets/img/meeting screenshot.jpg" alt="Screenshot of the team's huddle" width="600" height="100%">
 <br>
 <br>
 
@@ -192,15 +196,14 @@ This project was implemented using the Agile Manifesto methodology. Below are th
   [![GitHub issues](https://img.shields.io/github/issues-closed/Diana-is-Coding/R-P-S)](https://github.com/Diana-is-Coding/R-P-S/issues) + [![GitHub issues](https://img.shields.io/github/issues/Diana-is-Coding/R-P-S)](https://github.com/Diana-is-Coding/R-P-S/issues) GitHub issues, adapting to changing requirements and feedback iteratively.
 
 - Vision 3: Working software over comprehensive documentation: We achieved **16 story points** across **1 sprint**, emphasizing the focus on delivering functional software increments.
+<p align="center"><strong>A screenshot of Github activities ilustrating collaborative environment.</strong></p>
 <p align="center"><strong>A screenshot of Kanban Board.</strong></p>
-<img src="./assets/images/kanban-board.png" alt="Screenshot of the team's huddle" width="600" height="100%">
+<img src="assets/img/kanban-board.PNG" alt="Screenshot of the team's huddle" width="600" height="100%">
 <br>
 <br>
 
 - Vision 4: Individuals and interactions over processes and tools: Daily interactions on GitHub led to **29 commits**, fostering collaboration and knowledge sharing among team members.
 
-<p align="center"><strong>A screenshot of Github activities ilustrating collaborative environment.</strong></p>
-<img src="./assets/images/github.png" alt="Screenshot of the team's huddle" width="600" height="100%">
 <br>
 <br>
 
@@ -281,22 +284,22 @@ Quid Pro is packed with several key features that make it a unique and engaging 
 ### _File Organisation Tree_
 
 <p align="center">
-<img src="wireframe/file_org_tree.png" width="600" height="700">
+<img src="assets/img/New Wireframe 1.png" width="600" height="700">
 </p>
 
 ### _Home Page_
 
 <p align="center">
-<img src="wireframe/home-page.png" width="600" height="700">
+<img src="assets/img/New Wireframe 2.png" width="600" height="700">
 </p>
 
-<img src="wireframe/services-prices.png" width="600" height="900">
+<img src="assets/img/New Wireframe 3.png" width="600" height="900">
 </p>
 
 ### _Mobile View - Home Page_
 
 <p align="center">
-<img src="wireframe/mobile-home-page.png" width="400" height="1000">
+<img src="assets/img/New Wireframe mobile1.png" width="400" height="1000">
 </p>
 
 <h2 id="design-and-styling">Design and Styling</h2>
@@ -334,26 +337,21 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 - [HTML W3C Validator](https://validator.w3.org/#validate_by_input): I checked each page by direct input method on HTML validator site.
 
 <p align="center">
-<img src="assets/images/html-validation-report.png" width="600" height="100%">
+<img src="assets/img/html_check.PNG" width="600" height="100%">
 </p>
 
 - [CSS W3C Validator](https://jigsaw.w3.org/css-validator/): I checked each page by direct input method on HTML validator site. No error or warning message was encountered following this test.
 
 <p align="center">
-<img src="assets/images/css-validation-report.png" width="600" height="100%">
+<img src="assets/img/css-check.PNG" width="600" height="100%">
 </p>
 
-<p align="center">
-<img src="assets/images/lighthouse-test-report.png" width="600" height="100%">
-</p>
+
 
 <h3 id="html-validator-report">HTML Validator Report</h3>
 
-- The error and warning messages were corrected and re-tested to ensure full compartibility with HTML best practices. Some of the errors and warning meassages were:
-
-- _Warning_ : Section lacks heading (from line 32, column 9 of index.html)
-
-- _Value Error_ Stray end tag - div (from line 258, column 13 of index.html)
+- No error or warning message was encountered following this test.
+- We did have some errors originaly but we fixed them as it was as simple as "change image to img"
 
 <h3 id="css-validator-report">CSS Validator Report</h3>
 
@@ -370,10 +368,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 
 - The website is live and can be seen on https://diana-is-coding.github.io/R-P-S/
 
-### _Home Page_
+### _Home Page on various screens_
 
 <p align="center">
-<img src="assets/images/readme/desktop-home-page.png" width="600" height="100%">
+<img src="assets/img/responsive-home.PNG" width="600" height="100%">
 </p>
 
 - Add images of various sections of the final product as above.
@@ -415,7 +413,7 @@ Use this space to list individuals, groups or resources you find helpful and wou
 
 - Ernest Dapaah - [Email Address](egwimik@gmail.com); 
 
-- Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+- Project Link: [https://diana-is-coding.github.io/R-P-S/](https://diana-is-coding.github.io/R-P-S/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </section>
