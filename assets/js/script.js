@@ -9,6 +9,9 @@
  const scoresContainer = document.querySelector('.scores');
  const choicesContainer = document.querySelector('.choices');
  const resultContainer = document.querySelector('.result-container');
+ const winSound = document.getElementById('win-sound');
+ const tieSound = document.getElementById('tie-sound');
+ const loseSound = document.getElementById('lose-sound');
  
  let playerScore = 1;
  let computerScore = 1;
@@ -26,25 +29,40 @@
      const randomIndex = Math.floor(Math.random() * choices.length);
      return choices[randomIndex];
  }
+
+ const playSound = (result) => {
+    if (result === 'win') {
+        winSound.play();
+    } else if (result === 'tie') {
+        tieSound.play();
+    } else if (result === 'loss') {
+        loseSound.play();
+    }
+}
+
  
  function playRound(playerChoice, computerChoice) {
+    let result = ''
      if (playerChoice === computerChoice) {
          document.getElementById('tie-result').textContent = `It's a tie! You both chose ${playerChoice}.`; 
          document.getElementById('win-result').textContent = '';
          document.getElementById('lost-result').textContent = '';
- 
+        result = 'tie'
      } else if (gameRules[playerChoice][computerChoice]) {
          document.getElementById('player-score').textContent = playerScore++;
           document.getElementById('win-result').textContent = `You win! ${playerChoice} ${gameRules[playerChoice][computerChoice]} ${computerChoice}`;
           document.getElementById('tie-result').textContent = '';
           document.getElementById('lost-result').textContent = '';
- 
+        result = 'win'
      } else {
          document.getElementById('computer-score').textContent = computerScore++;
          document.getElementById('lost-result').textContent = `You lose! ${computerChoice} ${gameRules[computerChoice][playerChoice]} ${playerChoice}`;
          document.getElementById('win-result').textContent = '';
          document.getElementById('tie-result').textContent = '';
+         result = 'loss'
      }
+     playSound(result)
+     result = '';
  }
  
  function displayChoices(playerChoice, computerChoice) {
