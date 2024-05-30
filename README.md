@@ -22,9 +22,8 @@
   <h1 align="center">Quid Pro</h1>
 
   <p align="center">
-Welcome to Quid Pro, the ultimate online game that blends strategy, luck, and skill! Built with HTML, CSS, and JavaScript, Quid Pro is designed to entertain and challenge players with its unique gameplay mechanics and increasing levels of difficulty.
-
-Quid Pro offers an engaging experience for users who enjoy games of chance and skill. The game is designed to provide a dynamic and challenging environment, ensuring that every round is exciting and unpredictable.
+This documentation is a detailed step by step breakdown of the planning, design, development, testing & validation, and deployment of Quid Pro, the ultimate online game that blends strategy, luck, and skill! Built with HTML, CSS, and JavaScript, Quid Pro is designed to entertain and challenge players with its unique gameplay mechanics.
+    
 <br>
 <br>
     <a href="https://github.com/Diana-is-Coding/R-P-S/README.md"><strong>Explore the docs »</strong></a>
@@ -117,7 +116,7 @@ This section contains summary information about the project, the user expections
 
 <h2 id="ux">User Experience (UX)</h2>
 
-Introducing to Quid Pro; the ultimate online game that blends strategy, luck, and skill! Built with HTML, CSS, and JavaScript, Quid Pro is designed to entertain and challenge players with its unique gameplay mechanics and increasing levels of difficulty.
+Introducing to Quid Pro; the ultimate online game that blends strategy, luck, and skill! Built with HTML, CSS, and JavaScript, Quid Pro is designed to entertain and challenge players with its unique gameplay mechanics.
 
 
 Quid Pro is an innovative online game created for those who love a mix of strategy and chance. It provides an exciting platform where players can engage in stimulating pattern recognition and strategic decision-making, all while contending with the element of luck. Whether you're looking for a casual gaming experience or a more competitive challenge, Quid Pro has something to offer.
@@ -133,10 +132,23 @@ Quid Pro stands out in the crowded online gaming space due to its distinct and e
 
 - Play Against the Computer: Quid Pro offers an advanced AI opponent, providing a challenging and unpredictable adversary. This feature ensures that players are always facing new and varied challenges, keeping the gameplay fresh and engaging.
 
-Why Quid Pro is Unique:
-- Quid Pro's uniqueness lies in its perfect blend of strategy, chance, and cognitive challenge. Many games focus on one or two aspects, but Quid Pro integrates multiple dimensions of gameplay, making it a comprehensive and engaging experience. The inclusion of pattern matching, strategic limitations on attempts, score tracking, and AI competition ensures that players are continually tested and entertained.
-
 Join us in the world of Quid Pro and experience a game that is as intellectually rewarding as it is fun. See how far your skills can take you and enjoy the thrill of continuous challenge and achievement. May the odds be ever in your favor!
+
+Click the link to explore the game: https://diana-is-coding.github.io/R-P-S/
+
+<h2 id="user-stories">User Stories</h2>
+
+- As a player, I want to see the game rules and options, so that I can understand how to play the game.
+- As a player, I want to be able to select my choice (rock, paper, scissors, lizard, or Spock), so that I can make my move.
+- As a player, I want the game to randomly select the computer's choice, so that the outcome is fair and unpredictable.
+- As a player, I want the game to display the result (win, lose, or tie) after both choices are made, so that I can know the outcome of the round.
+- As a player, I want the game to keep track of the score, so that I can see how many rounds I've won or lost.
+- As a player, I want the option to play again or quit the game, so that I can choose to continue playing or exit the game.
+- As a player, I want the game to have a user-friendly interface, so that it's easy to navigate and understand.
+- As a player, I want the game to provide feedback or animations when choices are made, so that the gameplay is more engaging and interactive.
+- As a player, I want the game to have intuitive controls or input methods (e.g., mouse, keyboard, touch), so that I can play it comfortably on different devices.
+- As a player, I want the game to have a leaderboard or high score system, so that I can compare my performance with other players.
+
 <h2 id="technology-stack">Technology Stack</h2>
 
 This subsection outlines the technologies, frameworks, libraries, and tools used in the development of this project. It provides insight into the foundational components that power Quid Pro. Add-ons and plugins are captured in the acknowledgements subsection.
@@ -165,45 +177,44 @@ This subsection outlines the technologies, frameworks, libraries, and tools used
 
 - <img src="./assets/icons/bootstrap.png" width="20px" align="top"><a href="[Bootstrap-url]"> Bootstrap</a> - Used for building responsive and mobile-first websites and web applications.
 
+- - <img src="./assets/images/canva.png" alt="Canva" width="20px" align="top"><a href="(https://www.canva.com/)"> Canva</a> - A free online graphic design tool. Used for creating logos and more.
+
 <h2 id="management-and-development">Project Management and Development Approach</h2>
 
 This project was implemented using the Agile Manifesto methodology. Below are the ways this project adhered to the 4 core values and 12 core principles of the aforementioned method:
 
 <strong>Four Values of the Agile Manifesto:</strong>
 
-- Vision 1: Customer collaboration over contract negotiation: The Team held 8 sessions via Slack (Huddle) platform, ensuring alignment with customer needs and prioritizing features through user story mapping.
-  <a href="https://github.com/Diana-is-Coding/R-P-S/README.md">
-  <img src="#" alt="Product Screenshot" width="400" height="300">
-  </a>
-  **A screenshot or graphic representation of a Slack meeting with team members.**
+- Vision 1: Customer collaboration over contract negotiation: The Team held **16** Hurdles through Slack Platform, ensuring alignment with user needs and prioritizing features through user story mapping.
 
-- Vision 2: Responding to change over following a plan: Throughout the project, the team managed (
-  [![GitHub issues](https://img.shields.io//github.com/Diana-is-Coding/R-P-S?)](https://github.com/Diana-is-Coding/R-P-S/issues) + [![GitHub issues](https://img.shields.io/github/issues/Diana-is-Coding/R-P-S?)](https://github.com/Diana-is-Coding/R-P-S/issues) ) GitHub issues, adapting to changing requirements and feedback iteratively.
-  **A screenshot of the GitHub project board demonstrates their flexibility.**
-  <a href="https://github.com/Diana-is-Coding/R-P-S/README.md">
-  <img src="#" alt="Product Screenshot" width="400" height="300">
-  </a>
+<p align="center"><strong>A screenshot of a one of the team's huddles through slack.</strong></p>
+<img src="./assets/images/team-huddle.png" alt="Screenshot of the team's huddle" width="600" height="100%">
+<br>
+<br>
 
-- Vision 3: Working software over comprehensive documentation: Achieved 24 story points across 1 sprint, emphasizing the focus on delivering functional software increments.
-  **A snapshot of the scrum/kanban board tracks their progress.**
-  <a href="https://github.com/Diana-is-Coding/R-P-S/README.md">
-  <img src="#" alt="Product Screenshot" width="400" height="300">
-  </a>
+- Vision 2: Responding to change over following a plan: Throughout the project, the team managed
+  [![GitHub issues](https://img.shields.io/github/issues-closed/Diana-is-Coding/R-P-S)](https://github.com/Diana-is-Coding/R-P-S/issues) + [![GitHub issues](https://img.shields.io/github/issues/Diana-is-Coding/R-P-S)](https://github.com/Diana-is-Coding/R-P-S/issues) GitHub issues, adapting to changing requirements and feedback iteratively.
 
-- Vision 4: Individuals and interactions over processes and tools
-  Description: Daily interactions on GitHub led to **[number of commits]**, fostering collaboration and knowledge sharing among team members.
-- **A snapshot of GitHub issue discussions illustrates their collaborative environment.**
-  <a href="https://github.com/Diana-is-Coding/R-P-S/README.md">
-  <img src="#" alt="Product Screenshot" width="400" height="200">
-  </a>
+- Vision 3: Working software over comprehensive documentation: We achieved **16 story points** across **1 sprint**, emphasizing the focus on delivering functional software increments.
+<p align="center"><strong>A screenshot of Kanban Board.</strong></p>
+<img src="./assets/images/kanban-board.png" alt="Screenshot of the team's huddle" width="600" height="100%">
+<br>
+<br>
+
+- Vision 4: Individuals and interactions over processes and tools: Daily interactions on GitHub led to **59 commits**, fostering collaboration and knowledge sharing among team members.
+
+<p align="center"><strong>A screenshot of Github activities ilustrating collaborative environment.</strong></p>
+<img src="./assets/images/github.png" alt="Screenshot of the team's huddle" width="600" height="100%">
+<br>
+<br>
 
 <strong>Twelve Principles of the Agile Manifesto</strong>
 
-- Satisfy the customer: Held regular stakeholder meetings to ensure alignment with customer needs.
+- Satisfy the customer: Held regular meetings to ensure alignment with user stories.
 - Deliver working software: Prioritized delivering functional increments in each sprint, allowing for early feedback.
 - Welcome changing requirements: Maintained open communication channels and adapted plans iteratively.
-- Collaborate daily: Conducted 3 stand up meetings to facilitate collaboration and problem-solving.
-- Face-to-face conversation: Utilized virtual meetings to enhance clarity and understanding.
+- Collaborate daily: Conducted daily standup, catchup and stand-down to facilitate collaboration and problem-solving.
+- Face-to-face conversation: Utilized over 15 virtual meetings through slack huddle to enhance clarity and understanding.
 - Motivated individuals: Empowered team members through skill development and recognition.
 - Measure progress through working product: Evaluated progress based on delivered functionality in each sprint.
 - Promote sustainable development: Prioritized sustainability practices to ensure long-term success.
@@ -303,16 +314,12 @@ Quid Pro is packed with several key features that make it a unique and engaging 
 
 <h3 id="color">Color</h3>
 
-- #FFF (White) - We chose this color because the background has many images so we wanted to keep the background from distracting away from the content.
-- headings and Navbar - #cc6d2e- orange-brown and #000000-Black - They compliment the hero image but are at the same time striking and noticeable.
-- **h2 headings -  #000000-Black this was chosen to compliment the colour scheme 
-- **p -  #000000-Black - easy to read and follows the colour scheme of the pages.
-- **footer - #cc6d2e- orange-brown and #000000-Black - again this matches the header and compliments the colour scheme
+- #dac4fb (Purple) - We chose this color to have a welcominng background.
 
 <h3 id="font">Font</h3>
 
-- main font: sans-serif
-- Secondary font - Oswald and Exo
+- main font: Reddit Mono
+- Secondary font - Monospace
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -327,76 +334,39 @@ Quid Pro is packed with several key features that make it a unique and engaging 
 
 - **Responsiveness Testing:** Utilized Chrome Developer Tools to verify responsiveness across multiple devices: Desktop, Laptop, Moto G4, Galaxy S5, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPad, iPad Pro, Galaxy Fold
 
-<h2 id="validation">Validation</h2>
+h2 id="validation">Validation</h2>
 
 The W3C Markup Validator and W3C CSS Validator Services were used to check my code for syntax errors in this project.
 
-- [HTML](https://validator.w3.org/#validate_by_input)- I checked each page by direct input method on HTML validator site
+- [HTML W3C Validator](https://validator.w3.org/#validate_by_input): I checked each page by direct input method on HTML validator site.
 
 <p align="center">
-<img src="assets/images/readme/html-validator.png" width="400" height="100%">
+<img src="assets/images/html-validation-report.png" width="600" height="100%">
 </p>
 
-- [CSS](https://jigsaw.w3.org/css-validator/)
+- [CSS W3C Validator](https://jigsaw.w3.org/css-validator/): I checked each page by direct input method on HTML validator site. No error or warning message was encountered following this test.
 
 <p align="center">
-<img src="assets/images/readme/css-validator.png" width="400" height="100%">
+<img src="assets/images/css-validation-report.png" width="600" height="100%">
 </p>
 
-- I used Lighthouse tools to test my website
+- [Google Lighthouse](https://pagespeed.web.dev/analysis/https-scientistigwe-github-io-TravelEase-Website/83eeb3j0mi?hl=en-GB&form_factor=desktop): I used Google Lighthouse Dev Tool to test the website's performance, accessibility, best practices and SEO on both mobile and desktop devices.
 <p align="center">
-<img src="assets/images/readme/lighthouse.png" width="400" height="100%">
+<img src="assets/images/lighthouse-test-report.png" width="600" height="100%">
 </p>
 
 <h3 id="html-validator-report">HTML Validator Report</h3>
 
-- _Warning_ : [details of any warning]
+- The error and warning messages were corrected and re-tested to ensure full compartibility with HTML best practices. Some of the errors and warning meassages were:
 
-  - [actions taken to remedy it].
+- _Warning_ : Section lacks heading (from line 32, column 9 of index.html)
 
-- _Value Error_ : [details of any error]
-
-  - [actions taken to remedy it].
+- _Value Error_ Stray end tag - div (from line 258, column 13 of index.html)
 
 <h3 id="css-validator-report">CSS Validator Report</h3>
 
-- _Warning_ : [details of any warning]
+- No error or warning message was encountered following this test.
 
-  - [actions taken to remedy it].
-
-- _Value Error_ : [details of any error]
-
-  - [actions taken to remedy it].
-
-<h2 id="user-story-testing">User Story Testing</h2>
-
-- **User Story 1:** [user story here]
-
-  - [how it was implemented here]
-
-  (N/B: Use image generated from https://ui.dev/amiresponsive to show the the page in 4 different devices)
-
-  <p align="center">
-  <img src="assets/images/readme/logo-navbar.png" width="700" height="100%">
-  </p>
-
-- **User Story 2:** [user story here]
-
-  - [how it was implemented here]
-
-  (N/B: Use image generated from https://ui.dev/amiresponsive to show the the page in 4 different devices)
-
-  <p align="center">
-  <img src="assets/images/readme/logo-navbar.png" width="700" height="100%">
-  </p>
-
-reapeat for all user stories
-
-<h2 id="bugs-and-issues">Bugs and Issues</h2>
-
-- Detail any bug and/or issues encountered, steps taken to correct it. Add images if possible.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #
 
@@ -406,7 +376,7 @@ reapeat for all user stories
 
 <h2 id="final-product">Final Product</h2>
 
-- The product is live and can be seen on **[url of deployed site]**
+- The website is live and can be seen on https://diana-is-coding.github.io/R-P-S/
 
 ### _Home Page_
 
@@ -437,14 +407,9 @@ reapeat for all user stories
 
 Use this space to list individuals, groups or resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-- [Choose an Open Source License](https://choosealicense.com)
 - [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-- [Malven's Grid Cheatsheet](https://grid.malven.co/)
-- [Img Shields](https://shields.io)
 - [GitHub Pages](https://pages.github.com)
 - [Font Awesome](https://fontawesome.com)
-- [React Icons](https://react-icons.github.io/react-icons/search)
 
 <!-- CONTACT -->
 
