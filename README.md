@@ -161,15 +161,11 @@ This subsection outlines the technologies, frameworks, libraries, and tools used
 
 - <img src="./assets/icons/Google.png" width="20px" align="top"><a href="https://fonts.google.com/"> Google Fonts</a> - Provides all of the fonts for this website.
 
-- <img src="./assets/icons/font_awesome.png" width="20px" align="top"><a href="https://fontawesome.com/"> Font Awesome</a> - Used for the site icons.
-
 - <img src="./assets/icons/github.png" width="20px" align="top"><a href="https://github.com/IrisSmok"> Github</a> - Used to store the project code.
 
 - <img src="./assets/icons/gitpod.png" width="20px" align="top"><a href="https://www.gitpod.io/"> Gitpod</a> - An IDE Used for coding.
 
 - <img src="./assets/icons/balsamiq.png" width="20px" align="top"><a href="https://balsamiq.com/"> Balsamiq</a> - Used to create site wireframes.
-
-- <img src="./assets/icons/shutterstock.png" width="20px" align="top"><a href="https://www.shutterstock.com/home"> Shutterstock</a> and <img src="./assets/icons/unsplash.png" width="20px" align="top"><a href="https://unsplash.com/"> Unsplash photo</a> - Used for all images on the website.
 
 - <img src="./assets/icons/responsive-devices.png" width="20px" align="top"><a href="http://ami.responsivedesign.is/"> Am I Responsive</a> - Used to check if the site is responsive on different screen sizes.
 
@@ -177,7 +173,7 @@ This subsection outlines the technologies, frameworks, libraries, and tools used
 
 - <img src="./assets/icons/bootstrap.png" width="20px" align="top"><a href="[Bootstrap-url]"> Bootstrap</a> - Used for building responsive and mobile-first websites and web applications.
 
-- - <img src="./assets/images/canva.png" alt="Canva" width="20px" align="top"><a href="(https://www.canva.com/)"> Canva</a> - A free online graphic design tool. Used for creating logos and more.
+- <img src="./assets/images/canva.png" alt="Canva" width="20px" align="top"><a href="(https://www.canva.com/)"> Canva</a> - A free online graphic design tool. Used for creating logos and more.
 
 <h2 id="management-and-development">Project Management and Development Approach</h2>
 
@@ -201,7 +197,7 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 <br>
 <br>
 
-- Vision 4: Individuals and interactions over processes and tools: Daily interactions on GitHub led to **59 commits**, fostering collaboration and knowledge sharing among team members.
+- Vision 4: Individuals and interactions over processes and tools: Daily interactions on GitHub led to **29 commits**, fostering collaboration and knowledge sharing among team members.
 
 <p align="center"><strong>A screenshot of Github activities ilustrating collaborative environment.</strong></p>
 <img src="./assets/images/github.png" alt="Screenshot of the team's huddle" width="600" height="100%">
@@ -279,9 +275,6 @@ Quid Pro is packed with several key features that make it a unique and engaging 
 
   - The files where structured into folders and clustered based on functionality. Also file naming convention that reflects the functions of the conetent of the file was adopted.
 
-- **Header**
-
-  - "Quid Pro" logo positioned top left
 
 <h2 id="wireframes">Wireframes</h2>
 
@@ -350,7 +343,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 <img src="assets/images/css-validation-report.png" width="600" height="100%">
 </p>
 
-- [Google Lighthouse](https://pagespeed.web.dev/analysis/https-scientistigwe-github-io-TravelEase-Website/83eeb3j0mi?hl=en-GB&form_factor=desktop): I used Google Lighthouse Dev Tool to test the website's performance, accessibility, best practices and SEO on both mobile and desktop devices.
 <p align="center">
 <img src="assets/images/lighthouse-test-report.png" width="600" height="100%">
 </p>
@@ -415,9 +407,15 @@ Use this space to list individuals, groups or resources you find helpful and wou
 
 <h2 id="contact">Contact</h2>
 
-Your Name - [https://www.linkedin.com/in/ikennaegwim/] - Ikenna Egwim
+- Ikenna Egwim - [Email Address](egwimik@gmail.com); 
 
-Project Link: [https://github.com/Diana-is-Coding/R-P-S](https://github.com/Diana-is-Coding/R-P-S)
+- Andy Ancans - [Email Address](egwimik@gmail.com);
+
+- Diana Labode - [Email Address](egwimik@gmail.com);
+
+- Ernest Dapaah - [Email Address](egwimik@gmail.com); 
+
+- Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </section>
