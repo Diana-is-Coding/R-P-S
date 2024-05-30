@@ -12,6 +12,11 @@
 
 <body>
     <div class="container">
+        <div class="welcome-container">
+            <h1 class="welcome-message">Welcome to Quid Pro!</h1>
+            <h4 class="sub-heading">Lets play Rock, Paper, Scissors Elementals</h4>
+        </div>
+        <br>
         <div class="game-layout">
             <div class="game-container">
                 <div class="name-input-container">
@@ -28,16 +33,21 @@
                     </div>
                 </div>
                 <div class="choices" style="display: none;">
-                    <button class="choice" data-choice="rock"><image src="assets\img\rock.png" 
-                            alt="Rock">Rock</button>
-                    <button class="choice" data-choice="paper"><image src="assets\img\paper.png"
-                            alt="Paper">Paper</button>
-                    <button class="choice" data-choice="scissors"><image src="assets\img\scissors.png"
-                            alt="Scissors">Scissors</button>
-                    <button class="choice" data-choice="lizard"><image src="assets\img\lizard.png"
-                            alt="Lizard">Lizard</button>
-                    <button class="choice" data-choice="spock"><image src="assets\img\spock.png"
-                            alt="Spock">Spock</button>
+                    <button class="choice" data-choice="rock">
+                        <image src="assets\img\Rock.png" alt="Rock"> Rock
+                    </button>
+                    <button class="choice" data-choice="paper">
+                        <image src="assets\img\Paper.png" alt="Paper"> Paper
+                    </button>
+                    <button class="choice" data-choice="scissors">
+                        <image src="assets\img\Scissors.png" alt="Scissors"> Scissors
+                    </button>
+                    <button class="choice" data-choice="fire">
+                        <image src="assets\img\Fire.png" alt="Fire"> Fire
+                    </button>
+                    <button class="choice" data-choice="water">
+                        <image src="assets\img\Water.png" alt="Water"> Water
+                    </button>
                 </div>
 
                 <div class="result-container" style="display: none;">
@@ -49,10 +59,17 @@
                         <div class="lost-result" id="lost-result" style="color:red"></div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
-    </div>    
+        <div class="rules-container" id="rules">
+            <h1 class="rules-heading">How to play</h1>
+            <p>In the wacky world of Rock, Paper, Scissors, Fire, Water, you battle the all-knowing computer by choosing one
+                of five options: Rock crushes Scissors and Fire, Paper smothers Rock and Water, Scissors snip Paper and
+                Water, Fire burns Paper and Scissors, and Water douses Fire and erodes Rock. If both pick the same, it's a
+                tie! Outsmart the computer and emerge victorious with the perfect pick. Good luck!</p>
+        </div>
+    </div>
 
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

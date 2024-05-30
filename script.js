@@ -73,15 +73,15 @@
  let computerScore = 1;
  
  const gameRules = {
-     rock: { lizard: 'crushes', scissors: 'crushes' },
-     paper: { rock: 'covers', spock: 'disproves' },
-     scissors: { paper: 'cuts', lizard: 'decapitates' },
-     lizard: { paper: 'eats', spock: 'poisons' },
-     spock: { rock: 'vaporizes', scissors: 'smashes' },
+     rock: { fire: 'douses', scissors: 'crushes' },
+     paper: { rock: 'covers', water: 'absorbs' },
+     scissors: { paper: 'cuts', water: 'bursts' },
+     fire: { paper: 'burns', scissors: 'melts' },
+     water: { rock: 'erodes', fire: 'douses' },
  };
  
  function getComputerChoice() {
-     const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
+     const choices = ['rock', 'paper', 'scissors', 'fire', 'water'];
      const randomIndex = Math.floor(Math.random() * choices.length);
      return choices[randomIndex];
  }
