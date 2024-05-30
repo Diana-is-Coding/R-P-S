@@ -179,6 +179,8 @@ This subsection outlines the technologies, frameworks, libraries, and tools used
 
 - <img src="assets/img/Canva.jpg" alt="Canva" width="20px" align="top"><a href="(https://www.canva.com/)"> Canva</a> - A free online graphic design tool. Used for creating logos and more.
 
+- <img src="assets/img/mixkit380.logowik.com.webp" alt="Canva" width="20px" align="top"><a href="(https://mixkit.co/)"> Mixkit</a> - A free online sound and video download site.
+
 <h2 id="management-and-development">Project Management and Development Approach</h2>
 
 This project was implemented using the Agile Manifesto methodology. Below are the ways this project adhered to the 4 core values and 12 core principles of the aforementioned method:
