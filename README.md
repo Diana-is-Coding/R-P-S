@@ -397,7 +397,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 <!-- ACKNOWLEDGMENTS -->
 <h2 id="acknowledgments">Acknowledgments</h2>
 
-Use this space to list individuals, groups or resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Special acknowledgement to all members of team - Ikenna Egwim, Andy Ancans, Diana Labode and Ernest Dapaah and all the amazing students of Code Institute who contributed in one way or the other to the success of this project.
 
 - [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 - [GitHub Pages](https://pages.github.com)
